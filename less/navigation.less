@@ -3,38 +3,53 @@
     display:flex;
     
     padding:1%;
+    @media @mobile{
     
+        display:flex;
+        flex-direction:column;
+        
+    
+}
     
     h1{
         display:flex;
-        width:33%;
-        justify-content: flex-end;
+        justify-content:flex-end;
+        width:50%;
+        /*margin-right:30%;*/
+        background-color: firebrick;
+        @media @mobile{    
+    
+            margin:0 0;
+            width:100%;
+            justify-content:center;
+            background-color: cyan;
+           
+        }   
+
     }
     .links{
     display:flex;
-    margin-right:1%;
+    /*margin-right:8%;*/
     font-size:1.8rem;
-   justify-content:flex-end;
-    width:45%;
-    
+   justify-content:flex-start;
+    width:50%;
+    background-color:yellow;
    }
    a{
     
     color:black; 
     padding:3%;
    }
-    
-}/* header closes   */
-@media @mobile{
-    .header{
-        flex-direction:column;
-    }
-    h1{
-        justify-content: center;
-        width:100%;
-    }
-    a{
+ 
+
+
+
+ @media @mobile{
+    .links{
         justify-content:space-evenly;
+        background-color: darkorchid;
+        margin:0 0;
         width:100%;
     }
 }
+ }/* header closes   */  
