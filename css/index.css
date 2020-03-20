@@ -190,6 +190,19 @@ img {
   padding: 3%;
 }
 /* header closes   */
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+  }
+  h1 {
+    justify-content: center;
+    width: 100%;
+  }
+  a {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -243,7 +256,7 @@ img {
 }
 .home .btn {
   display: block;
-  background-color: aqua;
+  background-color: dodgerblue;
   margin: 0 10px 20px;
   cursor: pointer;
   width: 200px;
