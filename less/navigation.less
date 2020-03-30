@@ -1,1 +1,56 @@
-// Navigation Styles here
+.header{
+    border-bottom:2px dashed silver;
+    display:flex;
+    
+    padding:1%;
+    @media @mobile{
+    
+        display:flex;
+        flex-direction:column;
+        
+    
+}
+    
+    h1{
+        display:flex;
+        justify-content:center;
+        width:50%;
+        padding-left:5%;
+        /*margin-right:30%;*/
+        /*background-color: firebrick;*/
+        @media @mobile{    
+    
+            margin:0 0;
+            width:100%;
+            justify-content:center;
+            /*background-color: cyan;*/
+           
+        }   
+
+    }
+    .links{
+    display:flex;
+    /*margin-right:8%;*/
+    font-size:1.8rem;
+   justify-content:flex-start;
+    width:50%;
+    /*background-color:yellow;*/
+   }
+   a{
+    
+    color:black; 
+    padding:3%;
+   }
+ 
+
+
+
+ @media @mobile{
+    .links{
+        justify-content:space-evenly;
+        /*background-color: darkorchid;*/
+        margin:0 0;
+        width:100%;
+    }
+}
+ }/* header closes   */  
